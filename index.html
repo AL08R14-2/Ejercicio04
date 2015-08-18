@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Encabezado</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Juagar</a>
+     <a href="#opciones" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Opciones</a>
+      <a href="#puntajes" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Putajes</a>
+       <a href="#acerca_de" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Acerca de</a>
+        <a href="#ayuda" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Ayuda</a>
+      
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ <!--Pagina 1-->
+ <div data-role="page" id="jugar" >   
+  <div data-role="header">
+    <h1>Jugar</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+<a href="#principal" class="ui-btn">Menu</a> 
+
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div> 
+ <!--Pagina 2-->
+ <div data-role="page" id="opciones" >   
+   <div data-role="header">
+    <h1>Opciones</h1>
+  </div>
+<center>
+  <div data-role="main" class="ui-content">
+ <a href="#" id="btn-sonido"   class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right ui-btn-inline ">Sonido</a><br>
+ <a href="#" id="btn-sonido"   class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right ui-btn-inline ">Vibrar</a>
+  </div>
+</center>
+  <div data-role="footer">
+    <h1>Pie</h1>
+     <!--Pagina 3-->
+ <div data-role="page" id="puntajes" >   
+  <div data-role="header">
+    <h1>Puntajes</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+
+<a href="#principal" class="ui-btn">Menu</a> 
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div> 
+   <!--Pagina 4-->
+ <div data-role="page" id="acerca_de" >   
+  <div data-role="header">
+    <h1>Acerca de</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <a href="#principal" class="ui-btn">Menu</a> 
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div> 
+  <!--Pagina 5-->
+ <div data-role="page" id="ayuda" >   
+  <div data-role="header">
+    <h1>Ayuda</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+<a href="#principal" class="ui-btn">Menu</a>  
+
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div> 
+ </body>
+</html> 
